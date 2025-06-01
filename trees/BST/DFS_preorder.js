@@ -72,7 +72,7 @@ class BinarySearchTree {
         let current = this.root;
 
         function traverse(node) { //using recursion
-            data.push(node)
+            data.push(node.value);
             if (node.left) traverse(node.left);
             if (node.right) traverse(node.right);
         }
