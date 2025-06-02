@@ -37,20 +37,20 @@ class BinarySearchTree {
     }
 
     contains(value) { //helps us to find if a binary tree contains that value
-        let found = false
-        let current = this.root
-        if (current === null) return null
+        let found = false;
+        let current = this.root;
+        if (current === null) return null;
 
         while (current && !found) {
             if (value < current.value) {
-                current = current.left
+                current = current.left;
             } else if (value > current.value) {
-                current = current.right
+                current = current.right;
             } else {
-                return true
+                return true;
             }
         }
-        return false
+        return false;
     }
 
     BFS() { //breadth first search implementation
