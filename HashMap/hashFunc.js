@@ -1,4 +1,4 @@
-function hash(key, arrayLength) { // simple hash
+function hash(key, arrayLength) { // simple hash function
     let total = 0;
     let PRIME_NUMBER = 31;
 
