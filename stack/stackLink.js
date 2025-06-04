@@ -1,3 +1,10 @@
+class Node {
+    constructor(value) {
+        this.value = value
+        this.next = null
+    }
+}
+
 class Stack {
     constructor() {
         this.first = null
@@ -25,12 +32,5 @@ class Stack {
         this.first = this.first.next
         this.size--
         return temp.value
-    }
-}
-
-class Node {
-    constructor(value) {
-        this.value = value
-        this.next = null
     }
 }
