@@ -4,7 +4,7 @@ function binarySearch(array, value) {
     let middlePointer = Math.floor((startPointer + endPointer) / 2);//with middle pointer
     while(array[middlePointer] !== value && startPointer <= endPointer) {
         if (value < array[middlePointer]) {
-                endPointer = middlePointer - 1;
+            endPointer = middlePointer - 1;
         } else {
             startPointer = middlePointer + 1;
         }
