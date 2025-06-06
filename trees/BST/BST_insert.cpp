@@ -45,7 +45,14 @@ public:
     bool contains(int value) {
         bool found = false;
         Node* current = root;
-        
-
-    }
+        if (current == nullptr) return nullptr;
+        while(current && !found) {
+            if (value < current->value) {
+                current = current->left;
+            } else if (value > current) {
+                current = current->right;
+            } else return true;
+        }
+        return false;
+    }    
 }
