@@ -21,4 +21,4 @@ const quickSort = (arr, left=0, right=arr.length-1) => {
         quickSort(arr, pivotIndex+1, right); //right
     }
     return arr;
-}
+};
