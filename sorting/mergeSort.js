@@ -1,4 +1,4 @@
-function merge(array1, array2) {
+const merge = (array1, array2) => {
     let results = [];
     let i = 0, j = 0;
     while(i < array1.length && j < array2.length) {
@@ -23,7 +23,7 @@ function merge(array1, array2) {
     return results;
 }
 
-function mergeSort(array) {
+const mergeSort = (array) => {
     if (array.length <= 1) return array;
     let midpoint = Math.floor(array.length / 2);
     let leftSide = mergeSort(array.slice(0, midpoint));
