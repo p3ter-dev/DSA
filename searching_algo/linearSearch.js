@@ -4,5 +4,3 @@ const linearSearch = (array, value) => { //in linear search we visit one item at
     }
     return -1;
 }
-
-// linearSearch([20, 56, 47, 37, 37], 37);
