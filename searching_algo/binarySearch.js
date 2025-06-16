@@ -13,5 +13,3 @@ const binarySearch = (array, value) => {
     if (array[middlePointer] === value) return middlePointer;
     return -1;
 }
-
-// binarySearch([23, 47, 59, 63, 73, 99, 103], 59);
