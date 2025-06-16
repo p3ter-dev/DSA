@@ -1,4 +1,4 @@
-function merge(array1, array2) { //used for only for merging two arrays
+const merge = (array1, array2) => { //used for only for merging two arrays
     let results = [];
     let i = 0, j = 0;
     while(i < array1.length && j < array2.length) {
