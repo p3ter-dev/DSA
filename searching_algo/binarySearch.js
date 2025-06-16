@@ -1,5 +1,5 @@
 //binary search only works in sorted arrays
-function binarySearch(array, value) {
+const binarySearch = (array, value) => {
     let startPointer = 0, endPointer = array.length - 1; //using two pointers at the start and end, and
     let middlePointer = Math.floor((startPointer + endPointer) / 2);//with middle pointer
     while(array[middlePointer] !== value && startPointer <= endPointer) {
