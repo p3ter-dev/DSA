@@ -1,4 +1,4 @@
-const pivot = (arr, start=0, end=arr.length+1) => {// implementation of the pivot helper function for quick sorting
+const pivot = (arr, start=0, end=arr.length-1) => {// implementation of the pivot helper function for quick sorting
     const swap = (arr, indx1, indx2) => {// swap function
         [arr[indx1], arr[indx2]] = [arr[indx2], arr[indx1]];
     };
