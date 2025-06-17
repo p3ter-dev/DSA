@@ -1,9 +1,7 @@
 //helper method recursion
-
-
-function collectOdds(arr) {
+const collectOdds = (arr) => {
     let result = []
-    function helperFunction(helperInput) {
+    const helperFunction = (helperInput) => {
         if (helperInput.length === 0) {
             return
         }
@@ -16,6 +14,3 @@ function collectOdds(arr) {
     helperFunction(arr)
     return result
 }
-
-let odds = collectOdds([])
-console.log(odds)
