@@ -156,7 +156,7 @@ public:
         return removedNode;
     }
 
-    // For debugging - print list forward
+    // For debugging
     void print() {
         Node* temp = head;
         while (temp != nullptr) {
